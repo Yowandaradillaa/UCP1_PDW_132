@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak-MiawMart</title>
+  <link rel="stylesheet" href="contact.css">
+  <script>
+    function submitForm() {
+      alert("Pesan Anda terkirim! Terima kasih sudah menghubungi MiawMart!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Hubungi Kami</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="features.html">Fitur</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="form-section">
+      <h2>Formulir Pendaftaran</h2>
+      <form onsubmit="submitForm(); return false;">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="NoTelp">Nomor Telepon:</label>
+        <input type="NoTelp" id="NoTelp" name="NoTelp" required>
+
+        <label for="minat">Jasa:</label>
+        <select id="minat" name="minat">
+          <option>Perawatan Kucing</option>
+          <option>Adopsi</option>
+          <option>Ras & Jenis</option>
+        </select>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

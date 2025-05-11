@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f1;
+    color: #333;
+}
+
+header {
+    background-color: #f2c9a6;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5em;
+    color: #5a3d31;
+}
+
+.about {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.intro {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #5a3d31;
+}
+
+.vision-mission {
+    margin-bottom: 20px;
+}
+
+.vision-mission h3 {
+    font-size: 1.5em;
+    color: #c06c4d;
+}
+
+.vision-mission p {
+    font-size: 1.1em;
+    color: #5a3d31;
+}
+
+.team-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+    color: #5a3d31;
+}
+
+.team-list li {
+    margin: 10px 0;
+}
+
+.team-list li strong {
+    color: #c06c4d;
+}
+
+.address {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: #5a3d31;
+}
+
+.address h3 {
+    font-size: 1.5em;
+    color: #c06c4d;
+}
+
+/* Tabel Keunggulan */
+.advantages table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.advantages th, .advantages td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.advantages th {
+    background-color: #f2c9a6;
+    color: #5a3d31;
+}
+
+.advantages td {
+    background-color: #f9f6f1;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
